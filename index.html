@@ -7,9 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Start with Bootstrap4</title>
     <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <style>
+        .img-box {
+            width: 100%;
+            height: 250px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
+<div class="container">
         <nav>
             <ul class="list-inline text-primary">
                 <li class="list-inline-item">Start</li>
@@ -18,23 +24,68 @@
                 <li class="list-inline-item">Kontakt</li>
             </ul>
         </nav>
-        <h1 class="text-uppercase bg-success text-white">Bootstrap 4 - wybrane nowości</h1>
+        <h1 class="text-uppercase bg-success text-white text-center text-md-left">Bootstrap 4 - wybrane nowości</h1>
         <h3 class="text-muted">Opublikowano: 23-10-2017</h3>
         <img src="./images/unity.png" alt="unity" class="img-fluid float-left" style="width: 260px">
-        <p class="lead">
+        <p class="lead text-justify">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus amet, id ex magni magnam nostrum, consectetur dolorem aut explicabo numquam voluptas eligendi molestias odit, repellendus error sit quis reprehenderit sapiente.
         </p>
-        <p class="bg-danger text-white">
+        <p class="bg-danger text-white text-justify">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, ducimus a temporibus excepturi totam minima quaerat nam consequuntur dicta nobis molestiae atque, sit, ut et. Ipsam delectus porro omnis, nobis adipisci consequuntur accusamus maiores perferendis dolorem ullam ea, assumenda aliquam laboriosam provident ratione, molestiae corrupti accusantium dolores aut deserunt eligendi labore quos enim! Tenetur vero nobis assumenda molestias minus deleniti provident? Consequuntur provident deleniti accusamus! At consectetur harum temporibus illum architecto soluta maiores reiciendis odit sit iure saepe modi, neque voluptatum, inventore id quasi ab tenetur dignissimos blanditiis dicta quae corrupti autem nisi nemo! Non et vero aliquid fugit reprehenderit cumque mollitia recusandae odit veniam natus porro itaque minus aut nulla veritatis maiores nam cupiditate neque, sed quisquam iure ullam. Reiciendis libero rerum beatae laborum enim nam dignissimos possimus. Architecto, quod, similique! Dolore sed ab ipsum voluptatibus quis error, assumenda.
         </p>
         <img src="./images/unity.png" alt="Unity" class="img-fluid mx-auto d-block">
         <h2>Kluczowy cytat</h2>
-        <blockquote class="blockquote">
+        <blockquote class="blockquote text-justify">
             ...lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae a ipsam deleniti modi qui reiciendis magnam, facilis similique harum non, sequi magni, expedita rerum nihil dolores odit quam mollitia ipsa!
             <div class="blockquote-footer">
                 Jan Kowalski
             </div>
         </blockquote>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <article class="col-12 col-lg-4">
+                <img src="images/ikona1.png" alt="obrazek">
+                <h2>Tradycja</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid mollitia maiores corporis assumenda dolore omnis repellendus inventore perferendis porro ea dicta eveniet, sapiente fuga non, itaque dolor magnam suscipit ipsam.</p>
+            </article>
+
+            <article class="col-12 col-lg-4">
+                <img src="images/ikona2.png" alt="obrazek">
+                <h2>Nowoczesność</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid mollitia maiores corporis assumenda dolore omnis repellendus inventore perferendis porro ea dicta eveniet, sapiente fuga non, itaque dolor magnam suscipit ipsam.</p>
+            </article>
+
+            <article class="col-12 col-lg-4">
+                <img src="images/ikona3.png" alt="obrazek">
+                <h2>Doświadczenie</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid mollitia maiores corporis assumenda dolore omnis repellendus inventore perferendis porro ea dicta eveniet, sapiente fuga non, itaque dolor magnam suscipit ipsam.</p>
+            </article>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <article class="col-4 offset-2">
+                <div class="img-box bg-info"></div>
+                <h3>Lorem ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere commodi nesciunt autem libero excepturi blanditiis assumenda, a nobis provident, repellendus laboriosam. Consectetur vel voluptatibus vero quaerat minus amet eius repellat?</p>
+                <div class="row">
+                    <div class="col-6 order-md-2">
+                        <div class="img-box bg-dark"></div>
+                    </div>
+                    <div class="col-6 order-md-1">
+                        <div class="img-box bg-danger"></div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-4">
+                <div class="img-box bg-info"></div>
+                <h3>Lorem ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere commodi nesciunt autem libero excepturi blanditiis assumenda, a nobis provident, repellendus laboriosam. Consectetur vel voluptatibus vero quaerat minus amet eius repellat?</p>
+            </article>
+        </div>
     </div>
 
 </body>
